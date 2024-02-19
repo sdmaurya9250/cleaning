@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery DateTimePicker Example</title>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Include jQuery datetimepicker CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+</head>
+<body>
+    <!-- Input field for datetime picker -->
+    <input type="text" id="datetimepicker" />
+    
+    <script>
+        // Ensure jQuery and datetimepicker are loaded before attempting to use
+        if (typeof jQuery === 'undefined' || typeof jQuery.fn.datetimepicker === 'undefined') {
+            console.error('jQuery or jQuery datetimepicker plugin is not properly loaded.');
+        } else {
+            // Initialize datetimepicker
+            $(document).ready(function(){
+                $('#datetimepicker').datetimepicker();
+            });
+        }
+    </script>
+</body>
+</html>
