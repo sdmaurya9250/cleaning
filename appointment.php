@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Insert data into the database
     // Note: This is just a basic example, please use prepared statements for security
-    $sql = "INSERT INTO contact (name, phone, service, datetime) VALUES ('$name', '$phone', '$service', '$datetime')";
+    $sql = "INSERT INTO appointments (name, phone, service, datetime) VALUES ('$name', '$phone', '$service', '$datetime')";
     if (mysqli_query($conn, $sql)) {
         echo json_encode(["status" => "success", "message" => "Appointment made successfully"]);
     } else {

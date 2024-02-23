@@ -141,7 +141,7 @@ $(document).ready(function() {
             data: $("#contact-form").serialize(),
             success: function(response) {
                 console.log(response.success);
-				alert(response.success);
+				alert("Contact store successfully");
 				$('#name').val('');
                 $('#email').val('');
                 $('#subject').val('');
