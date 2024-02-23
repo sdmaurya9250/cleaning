@@ -2,7 +2,7 @@
 
 
 $servername = "localhost";
-$username = "root";
+$username = "admin";
 $password = "1234";
 $database = "cleaning";
 
