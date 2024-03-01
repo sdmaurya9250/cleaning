@@ -20,7 +20,7 @@
 
   </head>
   <body>
-  	<div class="wrap">
+  	<div class="wrap mb-dv">
 			<div class="container">
 				<div class="row justify-content-between">
 						<div class="col-12 col-md d-flex align-items-center">
@@ -41,9 +41,11 @@
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	    	<a class="navbar-brand" href="index.php">ADARSH BEROJGAR <span>SEVA</span></a>
+			<img src="images/aadarsh-logo-removebg-preview.png" class="logo-img" alt="ADARSH BEROJGAR">
+	    	<a class="navbar-brand brand-name" href="index.php">ADARSH BEROJGAR <span>SEVA</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="fa fa-bars"></span> Menu
+	        <span class="fa fa-bars"></span> 
+			<!-- Menu -->
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">

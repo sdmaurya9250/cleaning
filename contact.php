@@ -19,7 +19,7 @@ require_once('header.php');
 					<div class="col-md-12">
 						<div class="wrapper">
 							<div class="row mb-5">
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<div class="dbox w-100 text-center">
 				        		<div class="icon d-flex align-items-center justify-content-center">
 				        			<span class="fa fa-map-marker"></span>
@@ -29,7 +29,7 @@ require_once('header.php');
 					          </div>
 				          </div>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<div class="dbox w-100 text-center">
 				        		<div class="icon d-flex align-items-center justify-content-center">
 				        			<span class="fa fa-phone"></span>
@@ -39,26 +39,17 @@ require_once('header.php');
 					          </div>
 				          </div>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<div class="dbox w-100 text-center">
 				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-paper-plane"></span>
+				        			<span class="fa fa-envelope"></span>
 				        		</div>
 				        		<div class="text">
 					            <p><span>Email:</span> <a href="mailto:adarshberojgar2012@gmail.com">adarshberojgar2012@gmail.com</a></p>
 					          </div>
 				          </div>
 								</div>
-								<div class="col-md-3">
-									<div class="dbox w-100 text-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-globe"></span>
-				        		</div>
-				        		<div class="text">
-					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
-					          </div>
-				          </div>
-								</div>
+							
 							</div>
 							<div class="row no-gutters">
 								<div class="col-md-7">
@@ -111,8 +102,8 @@ require_once('header.php');
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div id="map" class="map"></div>
+					<div class="col-md-12 mt-5">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.938069072994!2d72.85477898873594!3d19.07540666206047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c903914cd983%3A0x83856f60dbe519a7!2sSantacruz%20%E2%80%93%20Chembur%20Link%20Rd%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1709261834715!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 			</div>

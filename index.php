@@ -92,8 +92,8 @@ require_once('header.php');
 							<div class="opening-hours">
 								<h4>Opening Days:</h4>
 								<p class="pl-3">
-									<span><strong>Monday – Friday:</strong> 9am to 20 pm</span>
-									<span><strong>Saturday :</strong> 9am to 17 pm</span>
+									<span><strong>Monday – Saturday:</strong> 9am to 6 pm</span>
+									<!-- <span><strong>Saturday :</strong> 9am to 17 pm</span> -->
 								</p>
 								<h4>Vacations:</h4>
 								<p class="pl-3">
@@ -121,7 +121,7 @@ require_once('header.php');
 					<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 						<div class="block-18">
 							<div class="text">
-								<strong class="number" data-number="45">0</strong>
+								<strong class="number" data-number="15">0</strong>
 							</div>
 							<div class="text">
 								<span>Years of <br>Experienced</span>
@@ -131,7 +131,7 @@ require_once('header.php');
 					<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 						<div class="block-18">
 							<div class="text">
-								<strong class="number" data-number="2342">0</strong>
+								<strong class="number" data-number="500">0</strong>
 							</div>
 							<div class="text">
 								<span>Happy <br>Customers</span>
@@ -141,7 +141,7 @@ require_once('header.php');
 					<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 						<div class="block-18">
 							<div class="text">
-								<strong class="number" data-number="30">0</strong>
+								<strong class="number" data-number="100">0</strong>
 							</div>
 							<div class="text">
 								<span>Building <br>Cleaned</span>
@@ -212,7 +212,7 @@ require_once('header.php');
 						<h3 class="heading">HOUSE KEEPING
 						</h3>
 						<p class="text-truncate-service">Housekeeping services ensure your home is clean, organized, and comfortable, allowing you to relax and enjoy your space without worrying about chores.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -224,7 +224,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">Water Tank Cleaning</h3>
 						<p class="text-truncate-service">Water tank cleaning services help maintain the quality of your water supply by removing sediment, debris, and harmful contaminants, ensuring clean and safe water for your household.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -236,7 +236,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">Pest Control </h3>
 						<p class="text-truncate-service">Pest control services protect your home from unwanted intruders such as insects, rodents, and pests, ensuring a hygienic and comfortable living environment for you and your family.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -249,7 +249,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">. Home Cleaning </h3>
 						<p class="text-truncate-service">Home cleaning services take care of all your cleaning needs, from dusting and vacuuming to mopping and sanitizing, leaving your home sparkling clean and fresh.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -262,7 +262,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">Deep Cleaning</h3>
 						<p class="text-truncate-service">Deep cleaning services provide a thorough and comprehensive cleaning of your home, tackling dirt, grime, and stains in hard-to-reach areas for a truly spotless finish.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -274,7 +274,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">Drainage Cleaning</h3>
 						<p class="text-truncate-service">Drainage cleaning services prevent clogs and blockages in your plumbing system, ensuring smooth water flow and preventing costly repairs and water damage.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -286,7 +286,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">Sanitization</h3>
 						<p class="text-truncate-service">Sanitization services eliminate harmful bacteria, viruses, and germs from your home, providing a safe and healthy environment for you and your loved ones.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -299,7 +299,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading">Waste Management						</h3>
 						<p class="text-truncate-service">Waste management services handle the collection, disposal, and recycling of household waste, promoting environmental sustainability and cleanliness in your community.</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>
@@ -311,7 +311,7 @@ require_once('header.php');
 					<div class="media-body pl-3">
 						<h3 class="heading"> Facade Cleaning </h3>
 						<p class="text-truncate-service">Facade cleaning services keep the exterior of your home looking pristine and attractive, removing dirt, grime, and pollutants to enhance curb appeal and property value..</p>
-						<p><a href="#" class="btn-custom">Read more</a></p>
+						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>
 					</div>
 				</div>
 			</div>

@@ -15,13 +15,14 @@
             </ul>
 					</div>
 					<div class="col-md-4 col-lg-4 mb-4 mb-md-0">
-						<h2 class="footer-heading">Have a Questions?</h2>
+						<h2 class="footer-heading">Contacts</h2>
 						<div class="block-23 mb-3">
               <ul>
-                <li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                <li><span class="icon fa fa-map-marker"></span><span class="text">Santacruz Chembur
+Linking Road, Tilak Nagar Mumbai - 400089</span></li>
                 <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 9892447919 / 9769272742
 </span></a></li>
-                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">adarshberojgar2012@gmail.com</span></a></li>
+                <li><a href="#"><span class="icon fa fa-envelope"></span><span class="text">adarshberojgar2012@gmail.com</span></a></li>
               </ul>
             </div>
 					</div>

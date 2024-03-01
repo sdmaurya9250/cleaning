@@ -9773,3 +9773,19 @@ textarea.form-control {
       text-overflow: ellipsis;
       
   }
+
+
+  @media (max-width: 500px) {
+   .logo-img{
+    width: 100px;
+    width: 100px;
+   }
+
+   .ftco-navbar-light .brand-name {
+    font-size: 16px;
+    line-height: 1;
+}
+  .mb-dv{
+    display: none;
+  }
+  } 
