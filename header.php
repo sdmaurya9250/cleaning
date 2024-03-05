@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Cleaning Company - Free Bootstrap 4 Template by Colorlib</title>
+    <title>ADARSH BEROJGAR SEVA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-
+	<link rel="icon" href="images/aadarsh-logo-removebg-preview.png?v=1" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css?v=1">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css?v=1">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css?v=1">
+    <link rel="stylesheet" href="css/magnific-popup.css?v=1">
 
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flaticon.css?v=1">
+    <link rel="stylesheet" href="css/style.css?v=1">
 
   </head>
   <body>
