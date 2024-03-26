@@ -1,7 +1,7 @@
 <?php
 require_once('header.php');
 ?>
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/breadcrumb.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
@@ -28,7 +28,7 @@ require_once('header.php');
 						<span class="flaticon-workplace"></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">HOUSE KEEPING
+						<h3 class="heading">House Keeping
 						</h3>
 						<p class="text-truncate-service">Housekeeping services ensure your home is clean, organized, and comfortable, allowing you to relax and enjoy your space without worrying about chores.</p>
 						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>

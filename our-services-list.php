@@ -30,12 +30,12 @@ require_once('header.php');
                         without lifting a finger.</p>
                 </div>
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/Housekeeping/HK-2.jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <br>
     
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/PestControl/PC.jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h4 class="text-center">PEST CONTROL</h4>
@@ -53,12 +53,12 @@ require_once('header.php');
                     <p class="mt-5">We offer comprehensive sanitization services to ensure the cleanliness and safety of your environment. Our team utilizes state-of-the-art equipment and environmentally friendly cleaning products to thoroughly sanitize various spaces, including homes, offices, schools, healthcare facilities, and more. Our services encompass all areas, from high-touch surfaces to floors, walls, and air purification. We prioritize hygiene and employ stringent protocols to eliminate germs, bacteria, viruses, and other harmful pathogens. Whether you require regular maintenance or specialized deep cleaning, our experienced professionals are equipped to meet your needs. Trust us to create a sanitized environment that promotes health and well-being for all occupants.</p>
                 </div>
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/Sanitization/ST.jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <br>
     
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/Waste managment/WM (5).jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h4 class="text-center">WASTAE MANAGEMENT</h4>
@@ -80,7 +80,7 @@ require_once('header.php');
                 <br>
     
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/Banner image/h.webp" alt="House Keeping" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h4 class="text-center"> Home Cleaning </h4>
@@ -102,12 +102,12 @@ require_once('header.php');
                     <p class="mt-5">Our drainage cleaning service offers comprehensive solutions for clogged or dirty drains. Our experienced team utilizes advanced equipment and techniques to effectively remove blockages, debris, and buildup from your drainage system. We specialize in both residential and commercial properties, ensuring that your drains are flowing smoothly and efficiently. Whether you're dealing with a stubborn clog or simply need routine maintenance, we're here to help. Our services include drain snaking, hydro-jetting, camera inspections, and more. Don't let a clogged drain disrupt your daily routine – contact us today for fast and reliable drainage cleaning services.</p>
                 </div>
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/DC-Cleaning.jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <br>
     
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/WaterTankCleaning/WTC (3).jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <h4 class="text-center">Water Tank Cleaning</h4>
@@ -119,7 +119,7 @@ require_once('header.php');
                     <p class="mt-5">Our facade cleaning services include comprehensive cleaning solutions for all types of building exteriors. We specialize in removing dirt, grime, pollution residue, and other environmental contaminants that accumulate on facades over time. Our experienced team utilizes state-of-the-art equipment and eco-friendly cleaning agents to restore the appearance and integrity of your building's exterior surfaces. Whether it's glass, concrete, metal, or any other material, we have the expertise to effectively clean and revitalize it. Our services are tailored to meet the unique needs of each client, ensuring exceptional results and complete satisfaction. Trust us to keep your building looking its best with our professional facade cleaning services.</p>
                 </div>
                 <div class="col-md-6 w-20">
-                    <img src="images/services/house-keeping.jpg" alt="House Keeping" class="img-fluid">
+                    <img src="images/FC.jpg" alt="House Keeping" class="img-fluid">
                 </div>
                 <br>
                 <div class="col-md-6 w-20">

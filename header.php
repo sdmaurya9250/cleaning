@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- background-color: #00072D; -->
+
   <head>
     <title>ADARSH BEROJGAR SEVA</title>
     <meta charset="utf-8">
@@ -28,12 +30,12 @@
 						</div>
 						<div class="col-12 col-md d-flex justify-content-md-end">
 							<div class="social-media">
-				    		<p class="mb-0 d-flex">
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-				    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-				    		</p>
+							<p class="mb-0 d-flex">
+								<a href="tel:9892447919" class="d-flex align-items-center justify-content-center"><span class="fa fa-phone"><i class="sr-only">Phone</i></span></a>
+								<a href="https://api.whatsapp.com/send?phone=9892447919" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"><i class="sr-only">WhatsApp</i></span></a>
+								<a href="mailto:adarshberojgar2012@gmail.com" class="d-flex align-items-center justify-content-center"><span class="fa fa-envelope"><i class="sr-only">Email</i></span></a>
+							</p>
+
 			        </div>
 						</div>
 				</div>

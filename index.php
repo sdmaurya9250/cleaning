@@ -1,7 +1,7 @@
 <?php
 require_once('header.php');
 ?>
-<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight" style="background-image: url('images/im.jpg');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -42,7 +42,7 @@ require_once('header.php');
 											<div class="icon"><span class="fa fa-chevron-down"></span></div>
 											<select name="service" id="service" class="form-control">
 												<option disabled>Select Services</option>
-												<option value="HOUSE KEEPING">HOUSE KEEPING</option>
+												<option value="House Keeping">House Keeping</option>
 												<option value="SANITIZATION">SANITIZATION</option>
 												<option value="PEST CONTROL">PEST CONTROL</option>
 												<option value="WASTAE MANAGEMENT">WASTAE MANAGEMENT</option>
@@ -93,18 +93,18 @@ require_once('header.php');
 								<h4>Opening Days:</h4>
 								<p class="pl-3">
 									<span><strong>Monday – Saturday:</strong> 9am to 6 pm</span>
-									<!-- <span><strong>Saturday :</strong> 9am to 17 pm</span> -->
+									<span><strong>Sunday :</strong> 9am to 3 pm</span>
 								</p>
 								<h4>Vacations:</h4>
 								<p class="pl-3">
-									<span>All Sunday Days</span>
+									<!-- <span>All Sunday Days</span> -->
 									<span>All Official Holidays</span>
 								</p>
 							</div>
 						</div>
 						<div class="desc p-4 bg-secondary">
 							<h3 class="heading">For Emergency Cases</h3>
-							<span class="phone">(+91) 9892447919</span>
+							<span class="phone">+91 9892447919</span>
 						</div>
 					</div>
 				</div>
@@ -166,23 +166,23 @@ require_once('header.php');
 				<div class="d-block d-flex">
 					<div class="media-body">
 					
-						<p>Adarsh Unemployed Seva Co-operative Society
+						<p>Adarsh Berojgar Seva Co-operative Society
 							Ltd. has been es tabl i shed by the Skill
 							Development Department and Cooperative
 							Department of Maharashtra Government to
-							provide employment to the unemployed youth by
+							provide employment to the berojgar youth by
 							providing the below services.</p>
 						<p>
 						<p>The purpose of establishment of Adarsh
-							Unemployed Seva Cooperative Society Ltd. is not
+							berojgar Seva Cooperative Society Ltd. is not
 							to make profit but to provide employment to
-							unemployed youth by providing various services .
+							berojgar youth by providing various services .
 						</p>
 						<p>Many types of services are provided on behalf of
 							the organization. All the required licenses are with
-							the organization, today Adarsh Unemployed
+							the organization, today Adarsh berojgar
 							Sanstha is continuously providing the types of
-							services since last 23 years. Adarsh Unemployed
+							services since last 23 years. Adarsh berojgar
 							Seva Sahakari Sanstha Ltd is a local organization
 							in Tilak Nagar and through this organization is
 							providing the following services at a modest cost</p>
@@ -209,7 +209,7 @@ require_once('header.php');
 						<span class="flaticon-workplace"></span>
 					</div>
 					<div class="media-body pl-3">
-						<h3 class="heading">HOUSE KEEPING
+						<h3 class="heading">House Keeping
 						</h3>
 						<p class="text-truncate-service">Housekeeping services ensure your home is clean, organized, and comfortable, allowing you to relax and enjoy your space without worrying about chores.</p>
 						<p><a href="our-services-list.php" class="btn-custom">Read more</a></p>

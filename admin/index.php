@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 
 require_once('../connection.php');
@@ -14,184 +13,120 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     exit;
 }
 ?>
-
+<!DOCTYPE html>
 <html lang="en">
 
 
+<!-- index.php  21 Nov 2019 03:44:50 GMT -->
 <head>
-    <title>ADARSH
-        BEROJGAR SEVA</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Admin template that can be used to build dashboards for CRM, CMS, etc." />
-    <meta name="author" content="Potenza Global Solutions" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- app favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <!-- plugin stylesheets -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
-    <!-- app style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>ADARSH BEROJGAR SEVA</title>
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="assets/css/app.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
 </head>
 
 <body>
-    <!-- begin app -->
-    <div class="app">
-        <!-- begin app-wrap -->
-        <div class="app-wrap">
-            <!-- begin pre-loader -->
-            <div class="loader">
-                <div class="h-100 d-flex justify-content-center">
-                    <div class="align-self-center">
-                        <img src="assets/img/loader/loader.svg" alt="loader">
-                    </div>
-                </div>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar sticky">
+        <div class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+                <i data-feather="maximize"></i>
+              </a></li>
+          
+          </ul>
+        </div>
+        <ul class="navbar-nav navbar-right">
+         
+          <li class="dropdown"><a href="#" data-toggle="dropdown"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/user.png"
+                class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+            <div class="dropdown-menu dropdown-menu-right pullDown">
+              <div class="dropdown-title"><?= isset($_SESSION['name']) ? $_SESSION['name'] : ''; ?></div>
+              <!-- <a href="profile.html" class="dropdown-item has-icon"> <i class="far
+										fa-user"></i> Profile
+              </a> -->
+              <div class="dropdown-divider"></div>
+              <a href="logout.php" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
+                Logout
+              </a>
             </div>
-            <!-- end pre-loader -->
-            <!-- begin app-header -->
-            <header class="app-header top-bar">
-                <!-- begin navbar -->
-                <nav class="navbar navbar-expand-md">
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.php">  <span
+                class="logo-name" style="font-size: 17px;">ADARSH BEROJGAR</span>
+            </a>
+          </div>
+          <ul class="sidebar-menu">
 
-                    <!-- begin navbar-header -->
-                    <div class="navbar-header d-flex align-items-center">
-                        <a href="javascript:void:(0)" class="mobile-toggle"><i class="ti ti-align-right"></i></a>
-                        <a class="navbar-brand" href="index.php">
-                          <b class="breadcrumb-item active text-primary">  ADARSH BEROJGAR SEVA</b>
-                            <!-- <img src="assets/img/logo.png" class="img-fluid logo-desktop" alt="logo" />
-                            <img src="assets/img/logo-icon.png" class="img-fluid logo-mobile" alt="logo" /> -->
-                        </a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="ti ti-align-left"></i>
-                    </button>
-                    <!-- end navbar-header -->
-                    <!-- begin navigation -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div class="navigation d-flex">
-                            <ul class="navbar-nav nav-left">
-                                <li class="nav-item">
-                                    <a href="javascript:void(0)" class="nav-link sidebar-toggle">
-                                        <i class="ti ti-align-right"></i>
-                                    </a>
-                                </li>
-                        
-                                <li class="nav-item full-screen d-none d-lg-block" id="btnFullscreen">
-                                    <a href="javascript:void(0)" class="nav-link expand">
-                                        <i class="icon-size-fullscreen"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="navbar-nav nav-right ml-auto">
-                                <li class="nav-item dropdown user-profile">
-                                    <a href="javascript:void(0)" class="nav-link dropdown-toggle " id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="assets/img/avtar/02.jpg" alt="avtar-img">
-                                        <span class="bg-success user-status"></span>
-                                    </a>
-                                    <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
-                                        <div class="bg-gradient px-4 py-3">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="mr-1">
-                                                <h4 class="text-white mb-0"><?= isset($_SESSION['name']) ? $_SESSION['name'] : ''; ?></h4>
-                                                <small class="text-white"><?= isset($_SESSION['user']) ? $_SESSION['user'] : ''; ?></small>
-                                                </div>
-                                                <a href="logout.php" class="text-white font-20 tooltip-wrapper" data-toggle="tooltip" data-placement="top" title="" data-original-title="Logout"> <i
-                                                                class="zmdi zmdi-power"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="p-4">
-                                            <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
-                                                <i class="fa fa-user pr-2 text-success"></i> Profile</a>
-                                        </div> -->
-                                    </div>
-                                </li>
-                            </ul>
+            <li class="dropdown active">
+              <a href="index.php" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+            </li>
+          
+  
+         
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+         
+
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4>All Appointment</h4>
+                  <div class="card-header-form">
+                    <form>
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
                         </div>
-                    </div>
-                    <!-- end navigation -->
-                </nav>
-                <!-- end navbar -->
-            </header>
-            <!-- end app-header -->
-            <!-- begin app-container -->
-            <div class="app-container">
-                <!-- begin app-nabar -->
-                <aside class="app-navbar">
-                    <!-- begin sidebar-nav -->
-                    <div class="sidebar-nav scrollbar scroll_light">
-                        <ul class="metismenu " id="sidebarNav">
-
-                           <li>
-                                <a class="has-arrow" href="javascript:void(0)" aria-expanded="false"><i class="nav-icon ti ti-info"></i><span class="nav-title">Aadarshberojgar</span> </a>
-                                <ul aria-expanded="false">
-                                    <li> <a href="#">All Appointment</a> </li>
-                                    <li> <a href="#">All Contacts</a> </li>
-
-                                </ul>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                    <!-- end sidebar-nav -->
-                </aside>
-                <!-- end app-navbar -->
-                <!-- begin app-main -->
-                <div class="app-main" id="main">
-                    <!-- begin container-fluid -->
-                    <div class="container-fluid">
-                        <!-- begin row -->
-                        <div class="row">
-                            <div class="col-md-12 m-b-30">
-                                <!-- begin page title -->
-                                <div class="d-block d-lg-flex flex-nowrap align-items-center">
-                                    <div class="page-title mr-4 pr-4 border-right">
-                                        <h1>Dashboard</h1>
-                                    </div>
-                                    <div class="breadcrumb-bar align-items-center">
-                                        <nav>
-                                            <ol class="breadcrumb p-0 m-b-0">
-                                                <li class="breadcrumb-item">
-                                                    <a href="index.php"><i class="ti ti-home"></i></a>
-                                                </li>
-                                                <li class="breadcrumb-item">
-                                                    Dashboard
-                                                </li>
-                                                <li class="breadcrumb-item active text-primary" aria-current="page">Default</li>
-                                            </ol>
-                                        </nav>
-                                    </div>
-                               
-                                </div>
-                                <!-- end page title -->
-                            </div>
-                        </div>
-
-                    <?php
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <?php
                     $sql = "SELECT * FROM appointments";
                     $result = $conn->query($sql);
                     $sqls = "SELECT * FROM contact";
                     $results = $conn->query($sqls);
                     ?>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card card-statistics">
-                                    <div class="card-body">
-                                    <h1>All Appointment</h1>
-                                        <div class="datatable-wrapper table-responsive">
-                                            <table id="datatable" class="display compact table table-striped table-bordered">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Name</th>
+                <div class="card-body p-0">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <tr>
+                        
+                        <th>Name</th>
                                                         <th>Phone No</th>
                                                         <th>Service</th>
                                                         <th>DateTime</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <?php
+                                                        <!-- <th>Action</th> -->
+                      </tr>
+                    
+                     
+                     
+                      <?php
                                                     while($row = $result->fetch_assoc()) {
                                                     ?>
                                                     <tr>
@@ -199,42 +134,59 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                                                         <td><?= $row['phone'];?></td>
                                                         <td><?= $row['service'];?></td>
                                                         <td><?= $row['datetime'];?></td>
-                                                        <td>
-                                    <!-- Action buttons -->
+                                                        <!-- <td>
+                                   
                                     <a href="edit.php?id=<?= $row['id']; ?>"><i class="fa fa-edit"></i></a>
                                     <a href="delete.php?id=<?= $row['id']; ?>" onclick="return confirm('Are you sure you want to delete this record?');"><i class="fas fa-cross"></i></a>
-                                </td>
+                                </td> -->
                                                     </tr>                                                     
                                                     <?php
                                                     }
                                                     ?>
-                        </tbody>
-                                        
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row -->
+                    
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card card-statistics">
-                                    <div class="card-body">
-                                    <h1>All Contact</h1>
-                                        <div class="datatable-wrapper table-responsive">
-                                            <table id="datatables" class="display compact table table-striped table-bordered">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Name</th>
-                                                        <th>Email</th>
-                                                        <th>Subject</th>
-                                                        <th>message</th>
-                                                     </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <?php
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4>All Contact</h4>
+                  <div class="card-header-form">
+                    <form>
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <?php
+                    $sql = "SELECT * FROM appointments";
+                    $result = $conn->query($sql);
+                    $sqls = "SELECT * FROM contact";
+                    $results = $conn->query($sqls);
+                    ?>
+                <div class="card-body p-0">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <tr>
+                        
+                        <th>Name</th>
+                                                        <th>Phone No</th>
+                                                        <th>Service</th>
+                                                        <th>DateTime</th>
+                                                        <!-- <th>Action</th> -->
+                      </tr>
+                    
+                     
+                      <?php
                                                     while($rows = $results->fetch_assoc()) {
                                                     ?>
                                                        <tr>
@@ -251,43 +203,34 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                                                     <?php
                                                     }
                                                     ?>
-                        </tbody>
-                                        
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                    <!-- end container-fluid -->
+                    </table>
+                  </div>
                 </div>
-                <!-- end app-main -->
+              </div>
             </div>
-            <!-- end app-container -->
-            <!-- begin footer -->
-            <footer class="footer">
-                <div class="row">
-                    <div class="col-12 col-sm-6 text-center text-sm-left">
-                        <p>&copy; Copyright 2024. All rights reserved.</p>
-                    </div>
-                   <div class="col  col-sm-6 ml-sm-auto text-center text-sm-right">
-                        <p><a target="_blank" href="https://www.digitalcotech.com">Digitalcotech</a></p>
-                    </div>
-                </div>
-            </footer>
-            <!-- end footer -->
+          </div>
+
+        </section>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          <a href="https://adarshberojgar.com/">ADARSH BEROJGAR SEVA</a></a>
         </div>
-        <!-- end app-wrap -->
+        <div class="footer-right">
+        </div>
+      </footer>
     </div>
-    <!-- end app -->
+  </div>
+  <!-- General JS Scripts -->
+  <script src="assets/js/app.min.js"></script>
 
-    <!-- plugins -->
-    <script src="assets/js/vendors.js"></script>
-
-    <!-- custom app -->
-    <script src="assets/js/app.js"></script>
+  <script src="assets/js/page/index.js"></script>
+  <!-- Template JS File -->
+  <script src="assets/js/scripts.js"></script>
+  <!-- Custom JS File -->
+  <script src="assets/js/custom.js"></script>
 </body>
 
 
+<!-- index.php  21 Nov 2019 03:47:04 GMT -->
 </html>
