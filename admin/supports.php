@@ -1,6 +1,6 @@
 <?php
 
-require_once('../connection.php');
+require_once('conn.php');
 
 
 // Start the session
@@ -82,9 +82,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <a href="#" class="menu-toggle nav-link has-dropdown"><i
                   data-feather="briefcase"></i><span>Scrapable</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="schedule.php">All Schedule</a></li>
-                <li><a class="nav-link" href="supports.php">Supports</a></li>
-                <li><a class="nav-link" href="users.php">All Users</a></li>
+                <li><a class="nav-link" href="widget-chart.html"></a></li>
+                <li><a class="nav-link" href="widget-data.html">Data Widgets</a></li>
               </ul>
             </li>
           
@@ -116,10 +115,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                   </div>
                 </div>
                 <?php
-                    $sql = "SELECT * FROM appointments";
+                    $sql = "SELECT * FROM supports";
                     $result = $conn->query($sql);
-                    $sqls = "SELECT * FROM contact";
-                    $results = $conn->query($sqls);
                     ?>
                 <div class="card-body p-0">
                   <div class="table-responsive">
@@ -127,8 +124,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                       <tr>
                         
                         <th>Name</th>
-                                                        <th>Phone No</th>
-                                                        <th>Service</th>
+                                                        <th>Email</th>
+                                                        <th>Contact</th>
+                                                        <th>Message</th>
+                          
                                                         <th>DateTime</th>
                                                         <!-- <th>Action</th> -->
                       </tr>
@@ -140,9 +139,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                                                     ?>
                                                     <tr>
                                                         <td><?= $row['name'];?></td>
-                                                        <td><?= $row['phone'];?></td>
-                                                        <td><?= $row['service'];?></td>
-                                                        <td><?= $row['datetime'];?></td>
+                                                        <td><?= $row['email'];?></td>
+                                                        <td><?= $row['contact'];?></td>
+                                                        <td><?= $row['message'];?></td>
+                                                        <td><?= $row['created_at'];?></td>
                                                         <!-- <td>
                                    
                                     <a href="edit.php?id=<?= $row['id']; ?>"><i class="fa fa-edit"></i></a>
@@ -160,64 +160,6 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-12">
-              <div class="card">
-                <div class="card-header">
-                  <h4>All Contact</h4>
-                  <div class="card-header-form">
-                    <form>
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-btn">
-                          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <?php
-                    $sql = "SELECT * FROM appointments";
-                    $result = $conn->query($sql);
-                    $sqls = "SELECT * FROM contact";
-                    $results = $conn->query($sqls);
-                    ?>
-                <div class="card-body p-0">
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <tr>
-                        
-                        <th>Name</th>
-                                                        <th>Phone No</th>
-                                                        <th>Service</th>
-                                                        <th>DateTime</th>
-                                                        <!-- <th>Action</th> -->
-                      </tr>
-                    
-                     
-                      <?php
-                                                    while($rows = $results->fetch_assoc()) {
-                                                    ?>
-                                                       <tr>
-                                                        <td><?= $rows['name'];?></td>
-                                                        <td><?= $rows['email'];?></td>
-                                                        <td><?= $rows['subject'];?></td>
-                                                        <td><?= $rows['message'];?></td>
-                                                        <td>
-                                    <!-- Action buttons -->
-                                    <a href="edit.php?id=<?= $rows['id']; ?>"><i class="fa fa-edit"></i></a>
-                                    <a href="delete.php?id=<?= $rows['id']; ?>" onclick="return confirm('Are you sure you want to delete this record?');"><i class="fas fa-cross"></i></a>
-                                </td>
-                                                    </tr>                                                   
-                                                    <?php
-                                                    }
-                                                    ?>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </section>
       </div>
